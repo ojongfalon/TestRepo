@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HireMe - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <ul>
+            <li class="menu-item" onclick="navigateTo('home')">Home</li>
+            <li class="menu-item" onclick="navigateTo('recruiter-dashboard')">Dashboard</li>
+            <li class="menu-item" onclick="navigateTo('profile-management')">Profile</li>
+            <li class="menu-item" onclick="navigateTo('chat')">Chat</li>
+            <li class="menu-item" onclick="navigateTo('about-us')">About Us</li>
+            <li class="menu-item" onclick="navigateTo('terms')">Terms</li>
+            <li class="menu-item" onclick="navigateTo('notifications')">
+                <img src="notification-bell.png" alt="Notifications">
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="content" id="content">
+            <!-- Content will be loaded here -->
+        </div>
+    </div>
+    <script src="router.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html> 

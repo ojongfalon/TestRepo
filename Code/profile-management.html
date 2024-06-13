@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Profile Management</h2>
+        <div class="form-container">
+            <h3>Create New Profile</h3>
+            <form id="profileForm">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="text" id="skills" placeholder="Skills" required>
+                <input type="text" id="experience" placeholder="Experience" required>
+                <button type="submit">Create Profile</button>
+            </form>
+        </div>
+        <div class="profiles-container">
+            <h3>Recently Created Profiles</h3>
+            <table id="profilesTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Skills</th>
+                        <th>Experience</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Profiles will be dynamically added here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="profile-management.js"></script>
+</body>
+
+</html>
